@@ -12,6 +12,12 @@ Portanto, é possível utilizar até mesmo o multímetro para conseguir medir as
 ## NTC10K 
 O NTC10K é bastante prático também pelo fato de que sua funcionalidade é baseada num termistor, ou seja, um resistor que varia a resistência em função da temperatura. A função de transdução é dada pela equação de Steinhart-Hart, que já está implementada no código em arduino (em estatistica.ino).
 
+## Utilização do Arduino para coletar os dados
+Para o processo de medição de temperatura, o Arduino pode ser uma ferramenta excelente, tendo em vista sua velocidade de processamento. Facilmente você pode medir milhares de pontos (com relativa precisão numérica) de temperatura e construir um gráfico com os dados em seu Monitor Serial:
+![img1](2ntc_funcionando.png)
+Note que os valores já vêm formatados e separados por vírgula. A primeira linha representa as colunas. Dessa forma, com um arquivo .csv facilmente conseguimos plotar um gráfico utilizando o Python e as bibliotecas matplotlib.pyplot e o Pandas.
+
+
 ## Montagem do circuito com 2 sensores NTC10K
 ![img1](montagem_2ntc.png)
 
