@@ -30,3 +30,12 @@ Nesse tópico, basta utilizar o código em Python em ambos os diretorios, utiliz
 
 ### Médias
 Note que o os sensores têm uma precisão (grau de concordância entre os pontos) que pode ser melhorada utilizando médias aritméticas. A função que calcula médias, desvio padrão da amostra, incertezas e outras estão implementadas em estatistica.ino. Utilize de acordo com sua necessidade.
+
+## Montagem do circuito com 1 LM35
+![img1](montagem_1LM35.png)
+
+### Equipamento necessário:
+- [x] Arduino uno.
+- [x] 1 LM35.
+
+Na pasta main_1_lm35 contém os programas .ino para coletar os dados de temperatura e printar no Monitor Serial do arduino (leia os comentários no código). Selecione os dados no Monitor Serial cole em um bloco de notas, salve com o final ".csv" e será gerado um arquivo tal e qual o data.csv.
