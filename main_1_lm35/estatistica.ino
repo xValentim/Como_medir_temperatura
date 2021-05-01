@@ -1,4 +1,5 @@
 #include <math.h><br>
+// Estatisticas:
 float media(float* amostras, float numero_de_amostras) {
   float soma = 0;
   for (int i = 0; i < numero_de_amostras; i++) {

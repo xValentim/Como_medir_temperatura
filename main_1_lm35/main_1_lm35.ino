@@ -4,6 +4,7 @@
  * Descrição: Como medir temperatura utilizando Arduino, LM35 e NTC10K
  * OBS.: Abra o link para checar o circuito desse programa
  * 
+ * 
  */
 
 #include <math.h><br>  
