@@ -45,3 +45,11 @@ Note que o os sensores têm uma precisão (grau de concordância entre os pontos
 - [x] 1 LM35.
 
 Na pasta main_1_lm35 contém os programas .ino para coletar os dados de temperatura e printar no Monitor Serial do arduino (leia os comentários no código). Selecione os dados no Monitor Serial cole em um bloco de notas, salve com o final ".csv" e será gerado um arquivo tal e qual o data.csv.
+
+
+## Tecnologias usadas nesse projeto
+
+![Arduino](https://img.shields.io/badge/Arduino-007ACC?style=for-the-badge&logo=arduino&logoColor=white)
+![Python](https://img.shields.io/badge/Python-2D7DB1?style=for-the-badge&logo=python&logoColor=yellow)
+
+
